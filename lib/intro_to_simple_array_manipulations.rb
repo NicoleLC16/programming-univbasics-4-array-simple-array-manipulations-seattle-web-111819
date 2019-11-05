@@ -22,6 +22,9 @@ def shift_with_args (array)
   array.shift(2)
 end
 
-def using_concat (array)
-array.concat([])
+def using_concat (element)
+a = [element]
+b = [element]
+
+a.concat(b)
 end
